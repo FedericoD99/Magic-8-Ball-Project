@@ -1,3 +1,4 @@
+
 // Get user Name
 let userName = prompt("Hello, what is your name?"); 
 
@@ -30,8 +31,9 @@ let imageChoice=''
 
 if (randomNumber === 0) {
   eightBall = 'It is certain'
-  imageChoice=''
-} else if (randomNumber === 1) {
+  imageChoice ='image1.jpg'
+
+}  else if (randomNumber === 1) {
   eightBall = 'It is decidedly so'
 } else if (randomNumber === 2) {
   eightBall = 'Reply hazy try again'
@@ -51,4 +53,5 @@ console.log(eightBall)
 responseText.innerText =`${userName} hs asked ${userQuestion} to the almighty 8 Ball. The 8 ball has replied ${eightBall}!`
 
 responseImg.src =imageChoice
+
 }
