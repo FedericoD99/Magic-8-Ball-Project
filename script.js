@@ -32,21 +32,34 @@ let imageChoice=''
 if (randomNumber === 0) {
   eightBall = 'It is certain'
   imageChoice ='image1.jpg'
-
-}  else if (randomNumber === 1) {
+}  
+else if (randomNumber === 1) {
   eightBall = 'It is decidedly so'
-} else if (randomNumber === 2) {
+  imageChoice ='image2.jpg'
+} 
+else if (randomNumber === 2) {
   eightBall = 'Reply hazy try again'
-} else if (randomNumber === 3) {
+  imageChoice ='image3.jpg'
+} 
+else if (randomNumber === 3) {
   eightBall = 'Cannot predict now'
-} else if (randomNumber === 4) {
+  imageChoice ='image4.jpg'
+} 
+else if (randomNumber === 4) {
   eightBall = 'Do not count on it'
-} else if (randomNumber === 5) {
+  imageChoice ='image5.jpg'
+} 
+else if (randomNumber === 5) {
   eightBall = 'My sources say no'
-} else if (randomNumber === 6) {
+  imageChoice ='image6.webp'
+} 
+else if (randomNumber === 6) {
   eightBall = 'Outlook not so good'
-} else if (randomNumber === 7) {
+  imageChoice ='image7.jpg'
+} 
+else if (randomNumber === 7) {
   eightBall = 'Signs point to yes'
+  imageChoice ='image8.jpg'
 } 
 
 console.log(eightBall)
