@@ -63,7 +63,7 @@ else if (randomNumber === 7) {
 } 
 
 console.log(eightBall)
-responseText.innerText =`${userName} hs asked ${userQuestion} to the almighty 8 Ball. The 8 ball has replied ${eightBall}!`
+responseText.innerText =`${userName} has asked ${userQuestion} to the almighty 8 Ball. The 8 ball has replied ${eightBall}!`
 
 responseImg.src =imageChoice
 
